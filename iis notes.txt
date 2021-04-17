@@ -1,0 +1,26 @@
+Installing IIS (windows -7)
+-> control panel-> programs and features-> turn windows features on or off -> select all options under Internet Information Services
+
+IIS Service manager
+Start -> run -> inetmgr ( start/restart/stop service)
+
+placing index file .
+Open notepad create a html file save it as index.htm
+in mydocument
+copy the fole from my document to 
+c:\inetpub\wwwroot folder
+check run
+ open the browser type he address as 
+http://localhost
+or
+http://127.0.0.1
+or http://computername
+
+configuring Virtualdirectory
+Open the inetmgr 
+expand computer name object browser
+right click on Default website
+select add virtual directory
+specify alias name and select the directory path->o.k
+
+
